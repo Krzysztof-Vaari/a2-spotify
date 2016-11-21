@@ -1,5 +1,8 @@
 # A2Spotify
 
+Remake of ngspotify, created under Youtube lessons by Brad Traversy ( https://www.youtube.com/playlist?list=PLillGF-RfqbYmJsLiPDVoDea3lfy7-E8O ),
+source code: ( https://github.com/bradtraversy/ngspotify ) Polish version !!!
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.20-4.
 
 ## Development server
