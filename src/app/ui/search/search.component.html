@@ -4,14 +4,15 @@
 </h1>
 
 <p>
-  Aplikacja umożliwia łatwe znalezienie informacji o artyście i utworach w największej na świecie muzycznej bazie danych, serwisie SPOTIFY.
+  Aplikacja umożliwia łatwe znalezienie informacji o artystach i zespołach w największej na świecie muzycznej bazie danych, serwisie SPOTIFY.<br>
+  Wpisz szukane hasło, wybierz jeden z wyników i zobacz szczegóły.
 </p>
 
 <form>
   <div class="form-group">
       <input type="text" name="findValue" 
       [(ngModel)]="findValue" (keyup)="findMusic()" 
-      class="form-control" placeholder="Znajdź muzykę ..."
+      class="form-control" placeholder="Znajdź artystę lub zespół ..."
       >
 </div>
 </form>

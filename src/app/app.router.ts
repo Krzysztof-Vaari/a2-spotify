@@ -10,7 +10,7 @@ import { AlbumComponent } from './ui/album/album.component';
 
 
 export const appRoutes: Routes = [
-   // { path: '', redirectTo: 'search', pathMatch: 'full' },
+    { path: '', redirectTo: 'search', pathMatch: 'full' },
     { path: 'search', component: SearchComponent },
     { path: 'about', component: AboutComponent },
     { path: 'artist/:id', component: ArtistComponent },
